@@ -6,9 +6,12 @@
 
 <div class="center">
 	<h3 class="text">All Products</h3>
+	<input type="text" class="form-control" onkeyup="searchProduct(this)" placeholder="Search...">
+	<div id="suggesstion"></div>
 	<table class="table table-striped">
 		<thead>
 			<th>Sl#</th>
+			<th></th>
 			<th> Name</th>
 			<th>Category </th>
 			<th> Price</th>
@@ -38,5 +41,6 @@
 		</tbody>
 	</table>
 </div>
+<script src="js/products.js"></script>
 <!--Products ends -->
 <?php include 'admin_footer.php';?>
